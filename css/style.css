@@ -1,0 +1,67 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+
+  background: #ffffff url("img/bg-page.png") no-repeat top center;
+}
+
+/*h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+*/
+a {
+  color: #0099ef;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+/* Замените селектор по тегу на селектор по классу */
+.blog-navigation {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background-color: #4470c4;
+  border: 5px solid #2d508f;
+
+  color: #ffffff;
+}
+
+.blog_navigation a {
+  color: #ffffff;
+}
+
+.blog_navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+/*Меняем в селекторах nav на .blog-navigation */
+
+/* Раскомментируйте правило ниже */
+
+.blog-navigation h2 {
+  margin-top: 0;
+}
+/
+
+/ Раскомментируйте правило ниже /
+/
+.blog-navigation li {
+  margin-bottom: 5px;
+}
+*/
+
+footer {
+  margin-top: 30px;
+}
